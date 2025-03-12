@@ -30,12 +30,15 @@ ul{
 
 .header{
     grid-area: header;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
     height: 87px;
-    padding: 10px 0 4px 0px;
+    padding: 10px 70px 4px 80px;
     background-color: #fefefe;
     box-shadow: 6px 0px 6px rgba(176, 176, 176, 0.836);
     z-index: 11000;
@@ -46,15 +49,14 @@ header a{
     letter-spacing: 0.5px;
     font-size: 0.7rem;
     font-weight: 800;
-    padding-bottom: 26.5px;
+    padding-bottom: 23px;
     text-decoration: none;
 }
 
 .navbar{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding:0px 90px 0px 60px;
+    gap: 20px;
 }
 
 .navbarbutton a:hover{
@@ -65,31 +67,29 @@ header a{
 #logo-Bucks{
     display: inline-block;
     background-image: url("./assets/logo-star.png");
-    margin: 0 15px 0 15px;
     width: 55px;
     height: 55px;
     background-size: cover;
 }
 
-.navbarbutton{
-    margin:0 20px;
-}
-
 .nav-btns{
     display: flex;
     align-items: center;
-    gap: 8px;
-    margin-left: auto;
+    gap: 12px;
+}
+
+.btn-location,.btn-login1,.btn-login2{
+    font-size: 0.7rem;
+    cursor: pointer;
 }
 
 .btn-location{
     display: flex;
     align-items: center;
-    gap: 8px;
-    margin-top: 20px;
-    margin-right: 20px;
+    gap: 10px;
+    margin-top: 17px;
+    margin-right: 70px;
     text-decoration: none;
-    font-size: 0.7rem;
     color: #212529;
     transition: transform 0.5s ease-in-out;
 }
@@ -98,7 +98,6 @@ header a{
     content: "";
     background-image: url("./assets/checkmark-location.png");
     background-size: cover;
-    background-repeat: no-repeat;
     width: 20px;
     height: 20px;
 }
@@ -106,22 +105,18 @@ header a{
 .btn-login1{
     background-color: transparent;
     color: #212529;
-    padding: 6px 9px;
-    margin-bottom: 4px;
     border: 1px solid #212529;
     border-radius: 15px;
-    font-size: 0.7rem;
-    cursor: pointer;
+    padding: 6px 9px;
+    margin-bottom: 4px;
 }
 
 .btn-login2{
     background-color: #212529;
     color: white;
-    padding: 6px 9px;
-    margin-bottom: 4px;
     border-radius: 15px;
-    font-size: 0.7rem;
-    cursor: pointer;
+    padding: 6px 9px;
+    margin-bottom: 5px;
 }
 
 .btn-location:hover{
@@ -228,12 +223,13 @@ header a{
 .main{
     grid-area: main;
     display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
     flex-wrap: wrap;
-    justify-content: center;
-    justify-items: center;
-    margin-top: 80px;
+    text-align: center;
+    margin-top: 90px;
     gap: 15px;
-    padding: 40px;
+    padding: 40px 0px;
     background-color: #ffffff;
     overflow-y: scroll;
 }
