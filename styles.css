@@ -262,6 +262,10 @@ header a{
     margin-right: 60px;
 }
 
+.ordernar-y-pagar-video{
+    width: 100%;         
+}
+
 .nivel-green,.nivel-gold{
     display: flex;
     justify-content: space-around;
@@ -394,6 +398,12 @@ header a{
     width: 364px;
     height: 50px;
     margin-bottom: 16px;
+}
+
+.oyp-video {
+    width: 100%;         
+    height: 100vh;      
+    border: none;
 }
 
 #titulo-rewards{
