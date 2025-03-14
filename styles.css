@@ -1,3 +1,5 @@
+/* Reset General */
+
 *{
     box-sizing: border-box;
     margin:0;
@@ -27,6 +29,8 @@ ul{
     height: 100vh;
     color: #212529;
 }
+
+/* Header */
 
 .header{
     grid-area: header;
@@ -133,6 +137,8 @@ header a{
     color: #fbfbfb;
 }
 
+/* Sidebar */
+
 .sidebar{
     grid-area: sidebar;
     position: fixed;
@@ -220,6 +226,8 @@ header a{
     color: #ffffff;
 }
 
+/* Reset general main */
+
 .main{
     grid-area: main;
     text-align: center;
@@ -228,6 +236,8 @@ header a{
     background-color: #fefefe;
     overflow-y: scroll;
 }
+
+/* Secciones del main ordenadas por tipo */
 
 .beneficios1{
     padding: 40px;
@@ -246,10 +256,52 @@ header a{
     background-color: #f1f0eb;
 }
 
+.beneficios4{
+    padding: 40px 15px;
+    margin-left: 90px;
+    margin-right: 60px;
+}
+
 .nivel-green,.nivel-gold{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+
+.recompensas-app-numero1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 340px;
+    height: 118px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.recompensas-app-numero2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 340px;
+    height: 195px;
+    margin-right: 30px;
+}
+
+.contenedor-centro{
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    gap: 20px;               
+    margin-top: 50px; 
+}
+
+.recompensas-app-numero3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 400px;
+    height: 118px;
+    margin-top: 20px;
 }
 
 .estrellas-recompensas-lista{
@@ -266,7 +318,64 @@ header a{
     align-items: center;
     width: 130px;
     max-width: 100%;
-    padding: 0 8px;
+}
+
+.nivel-gold-item{
+    margin-top: 15px;
+}
+
+.recompensas-app-numero1::before{
+    content: "";
+    background-image: url("./assets/Uno.png");
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    padding: 5px 15px;
+    margin-bottom: 100px;
+    margin-left: 10px;
+}
+
+.recompensas-app-numero2::before{
+    content: "";
+    background-image: url("./assets/Dos.png");
+    background-size: cover;
+    width: 21px;
+    height: 21px;
+    padding: 10px 15px;
+    margin-bottom: 115px;
+    margin-right: 10px;
+}
+
+.recompensas-app-numero3::before{
+    content: "";
+    background-image: url("./assets/Tres.png");
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    padding: 5px 20px;
+    margin-bottom: 100px;
+    margin-left: 5px;
+}
+
+.recompensas-app-numero1 img{
+    width: 118px;
+    height: 118px;
+}
+
+.recompensas-app-numero2 img{
+    width: 250px;
+    height: 195px;
+    margin-top: 35px;
+}
+
+.recompensas-app-numero3 img{
+    width: 118px;
+    height: 118px;
+}
+
+.recompensas-app-deco img{
+    width: 243px;
+    height: 190px;
 }
 
 .nivel-green img{
@@ -287,10 +396,6 @@ header a{
     margin-bottom: 16px;
 }
 
-.nivel-gold-item{
-    margin-top: 15px;
-}
-
 #titulo-rewards{
     font-weight: 700;
 }
@@ -305,7 +410,7 @@ header a{
 }
 
 .ben-2-titulo{
-    font-size: 0.95rem;
+    font-size: 0.97rem;
     font-weight: 500;
     color: #212529;
     text-align: center;
@@ -323,6 +428,22 @@ header a{
     margin-right: 190px;
 }
 
+.ben-4-titulo{
+    font-size: 1.10rem;
+    font-weight: 600;
+    color: #212529;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.ben-4-1-titulo{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #212529;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
 .h3star{
     width: 34px;
     height: 28px;
@@ -331,11 +452,13 @@ header a{
 }
 
 .nivel-green p{
+    font-weight: 500;
     font-size: 0.80rem;
     line-height: 1.5;
 }
 
 .nivel-gold p{
+    font-weight: 500;
     font-size: 0.80rem;
     line-height: 1.5;
 }
@@ -348,6 +471,23 @@ header a{
     margin-left: 80px;
     margin-right: 80px;
 }
+
+.recompensas-app-numero1 p{
+    font-weight: 500;
+    font-size: 0.80rem;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.recompensas-app-numero3 p{
+    font-weight: 500;
+    font-size: 0.80rem;
+    line-height: 1.5;
+    text-align: left;
+    margin-left: 10px;
+}
+
+/* Footer */
 
 .footer{
     grid-area: footer;
