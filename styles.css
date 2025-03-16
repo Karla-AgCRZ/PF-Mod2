@@ -275,6 +275,21 @@ header a{
     height: 933px;
 }
 
+.beneficios7{
+    padding: 48px;
+    width: 807px;
+    height: 922px;
+    padding: 48px;
+}
+
+.recomp7{
+    display: flex; /* Lo vuelve flexible */
+    flex-direction: column; /* Coloca los elementos en columna */
+    align-items: center;  /* Centra los elementos verticalmente */
+    text-align: center;  /* Asegura que el texto también esté centrado */
+    gap: 5px; /* Espaciado entre los divs */
+}
+
 .nivel-green,.nivel-gold{
     display: flex;
     justify-content: space-around;
@@ -379,6 +394,39 @@ header a{
     margin-left: 40px;
 }
 
+.recomyben{
+    display: flex;
+    flex-direction: column;  /* Alinea los elementos internos en columna */
+    align-items: center;  /* Centra el contenido dentro de cada div */
+    max-width: 533px;
+    height: auto;  /* El clasificar auto ayuda a que tome la altura por defecto de la imagen que se establece en su apartado */
+    margin-bottom: 20px;
+    width: 100%;  /* Hace que cada div ocupe el ancho completo del contenedor */
+}
+
+.appS-Google{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+    max-width: 533px;
+    width: 100%;
+    height: 96px;
+    margin-top: 4px;
+    margin-bottom: 16px;
+}
+
+.compyrecomp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 545px;
+    height: auto;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
 .nivel-green img{
     margin-bottom: 10px;
     width: 130px;
@@ -468,6 +516,21 @@ header a{
     height: 167px;
 }
 
+.recomyben img{
+    width: 280px;
+    height: 219px;
+}
+
+.appS-Google img{
+    width: 148px;
+    height: 48px;
+}
+
+.compyrecomp img{
+    width: 250px;
+    height: 250px;
+}
+
 .oyp-video{
     width: 100%;         
     height: 100vh;      
@@ -537,8 +600,6 @@ header a{
     text-align: center;
     margin-top: 40px;
     margin-bottom: 48px;
-    margin-left: 80px;
-    margin-right: 80px;
 }
 
 .ben-6-1-2-titulo{
@@ -549,6 +610,16 @@ header a{
     width: 165px;
     height: 85px;
     margin-bottom: 8px;
+}
+
+.ben-7-titulo{
+    font-size: 1.10rem;
+    font-weight: 600;
+    color: #212529;
+    text-align: center;
+    margin-bottom: 24px;
+    margin-left: 90px;
+    margin-right: 90px;
 }
 
 .h3star{
@@ -618,7 +689,27 @@ header a{
     line-height: 1.5;
     text-align: left;
     width: 165px;
-    height: 120;
+    height: 120px;
+    margin-bottom: 16px;
+}
+
+.recomyben p{
+    font-weight: 500;
+    font-size: 0.80rem;
+    line-height: 1.5;
+    text-align: center;
+    width: 533px;
+    height: 72px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.compyrecomp p{
+    font-weight: 700;
+    font-size: 0.80rem;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 10px;
     margin-bottom: 16px;
 }
 
