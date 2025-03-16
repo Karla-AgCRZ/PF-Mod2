@@ -263,10 +263,16 @@ header a{
     margin-bottom: 10px;
 }
 
-
-
 .ordernar-y-pagar-video{
-    width: 100%;         
+    width: 100%;
+    height: 100vh;
+}
+
+.beneficios6{
+    padding: 48px;
+    background-color: #edebe9;
+    width: 807px;
+    height: 933px;
 }
 
 .nivel-green,.nivel-gold{
@@ -331,6 +337,66 @@ header a{
     margin-top: 15px;
 }
 
+.ordena-y-paga{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 10px;
+}
+
+.estrellaxcompra{
+    display: flex;
+    justify-content: space-evenly;
+    width: 178px;
+    height: 168px;
+    padding: 0px 15px;
+    margin-bottom: 24px;
+}
+
+.opcion{
+    display: flex;
+    justify-content: space-evenly;
+    width: 237px;
+    height: 168px;
+    padding: 0px 15px;
+    margin-bottom: 24px;
+}
+
+.coleccionaryregalar{
+    display: flex;
+    align-items: center;
+    padding: 0px 15px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+.coleccionaryregalar-texto{
+    display: flex;
+    flex-direction: column;
+    width: 515px;
+    height: 229px;
+    margin-left: 40px;
+}
+
+.nivel-green img{
+    margin-bottom: 10px;
+    width: 130px;
+    height: 100px;
+}
+
+.nivel-gold img{
+    margin-bottom: 10px;
+    width: 130px;
+    height: 100px;
+}
+
+.estrellas-recompensas-lista img{
+    width: 364px;
+    height: 50px;
+    margin-bottom: 16px;
+}
+
 .recompensas-app-numero1::before{
     content: "";
     background-image: url("./assets/Uno.png");
@@ -385,28 +451,26 @@ header a{
     height: 190px;
 }
 
-.nivel-green img{
-    margin-bottom: 10px;
-    width: 130px;
-    height: 100px;
+.estrellaxcompra img{
+    width: 50px;
+    height: 40px;
+    margin-right: 5px;
 }
 
-.nivel-gold img{
-    margin-bottom: 10px;
-    width: 130px;
-    height: 100px;
+.opcion img{
+    width: 75px;
+    height: 132px;
+    margin-right: 16px;
 }
 
-.estrellas-recompensas-lista img{
-    width: 364px;
-    height: 50px;
-    margin-bottom: 16px;
+.coleccionaryregalar img{
+    width: 350px;
+    height: 167px;
 }
 
-.oyp-video {
+.oyp-video{
     width: 100%;         
     height: 100vh;      
-    border: none;
 }
 
 #titulo-rewards{
@@ -443,7 +507,7 @@ header a{
 
 .ben-4-titulo{
     font-size: 1.10rem;
-    font-weight: 600;
+    font-weight: 700;
     color: #212529;
     text-align: center;
     margin-bottom: 8px;
@@ -451,9 +515,39 @@ header a{
 
 .ben-4-1-titulo{
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: 600;
     color: #212529;
     text-align: center;
+    margin-bottom: 8px;
+}
+
+.ben-6-titulo{
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: #212529;
+    text-align: center;
+    padding: 0px 15px;
+    margin-bottom: 48px;
+}
+
+.ben-6-1-titulo{
+    font-size: 0.97rem;
+    font-weight: 600;
+    color: #212529;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 48px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.ben-6-1-2-titulo{
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: #212529;
+    text-align: left;
+    width: 165px;
+    height: 85px;
     margin-bottom: 8px;
 }
 
@@ -498,6 +592,34 @@ header a{
     line-height: 1.5;
     text-align: left;
     margin-left: 10px;
+}
+
+.estrellaxcompra p{
+    font-weight: 700;
+    font-size: 0.80rem;
+    line-height: 1.5;
+    text-align: left;
+    width: 98px;
+    height: 72px;
+}
+
+.opcion p{
+    font-weight: 700;
+    font-size: 0.80rem;
+    line-height: 1.5;
+    text-align: left;
+    width: 116px;
+    height: 168px;
+}
+
+.coleccionaryregalar p{
+    font-weight: 500;
+    font-size: 0.80rem;
+    line-height: 1.5;
+    text-align: left;
+    width: 165px;
+    height: 120;
+    margin-bottom: 16px;
 }
 
 /* Footer */
