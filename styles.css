@@ -17,6 +17,20 @@ ul{
     font-size: 1rem;
 }
 
+/* Regla Mobile First | Ménu Hamburguesa */
+
+.menu-barras{
+    display: none;
+    cursor: pointer;
+    background-image: url("./assets/menu.png");
+    background-size: cover;
+    background-position: center;
+    width: 1.4rem;
+    height: 1.4rem;
+}
+
+/* layout */
+
 .layout{
     display: grid;
     grid-template-columns: 576px 1fr;
@@ -897,4 +911,24 @@ header a{
     font-weight: 300;
     color: #999;
 }
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+    .navbarbutton,.nav-btns{
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #fefefe;
+        position: absolute;
+        top: 95px;
+        left: 0;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .menu-barras{
+        display: flex;
+    }
+}
+
+
 
